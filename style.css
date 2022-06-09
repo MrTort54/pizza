@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    padding: 50px;
+    color: #fff;
+    background-color: #333;
+    justify-content: space-around;
+}
+
+.choose{
+    border-bottom: 3px dotted #ed9907;
+    padding: 20px 30px ;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ed9907;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.chooseOpen{
+    width: 300px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+.item{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.row{
+    display: flex;
+}
+div{
+    text-align: center;
+}
+
+.feta{
+    background-image: url(img/feta.png);
+    background-size: cover;
+}
+.mozarella{
+    background-image: url(img/motza.png);
+    background-size: cover;
+}
+.chedder{
+    background-image: url(img/cheder.png);
+    background-size: cover;
+}
+.bargadel{
+    background-image: url(img/blu.png);
+    background-size: cover;
+}
+.parmezan{
+    background-image: url(img/parmezan.png);
+    background-size: cover;
+}
+.chiken{
+    background-image: url(img/chicken.png);
+    background-size: cover;
+}
+.bakon{
+    background-image: url(img/bekon.png);
+    background-size: cover;
+}
+.shinka{
+    background-image: url(img/shunka.png);
+    background-size: cover;
+}
+.paperony{
+    background-image: url(img/paparoni.png);
+    background-size: cover;
+}
+.alifredo{
+    background-image: url(img/alfredo.png);
+    background-size: cover;
+}
+.mybitheps{
+    background-image: url(img/chasnyk.png);
+    background-size: cover;
+}
+.barbiku{
+    background-image: url(img/barbequ.png);
+    background-size: cover;
+}
+.kukurudza{
+    background-image: url(img/kukurudza.png);
+    background-size: cover;
+}
+.ananas{
+    background-image: url(img/ananas.png);
+    background-size: cover;
+}
+.tomato{
+    background-image: url(img/tomato.png);
+    background-size: cover;
+}
+.grib{
+    background-image: url(img/grub.png);
+    background-size: cover;
+}
+.spinat{
+    background-image: url(img/shpunat.png);
+    background-size: cover;
+}
+.perez{
+    background-image: url(img/perets.png);
+    background-size: cover;
+}
+
+
+
+
+.pizza{
+    width: 600px;
+    height: 600px;
+    background-image: url(img/bace.png);
+    background-size: cover;
+    border: 1px solid #333;
+    box-shadow: 0 5px 20px #000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pizzaColor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 186, 73, 0.658);
+    background-size: cover;
+    border: 1px solid #333;
+    box-shadow: 0 5px 20px #000;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+
+
+.item1{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bob{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fun{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px solid rgb(119, 204, 70);
+    background-color: rgb(119, 204, 70);
+}

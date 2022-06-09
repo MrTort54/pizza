@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon-32x32.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="wrap">
+
+        <div class="chooser">
+            <h2>Pizza constructor</h2>
+            <p></p>
+            <div class="choose" id="cheese">Сир</div>
+
+            <div class="chooseOpen" id="chooseCheese">
+                <div class="row">
+                    <div class="fetaGroup">
+                        <div class="item feta" id="feta"></div>
+                        <span>фета</span>
+                    </div>
+
+                    <div class="mozarellaGroup">
+                        <div class="item mozarella" id="mozarella"></div>
+                        <span>моцарелла</span>
+                    </div>
+
+                    <div class="chedderGroup">
+                        <div class="item chedder" id="chedder"></div>
+                        <span>чедер</span>
+                    </div>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="bargadelGroup">
+                        <div class="item bargadel" id="bargadel"></div>
+                        <span>бергадель</span>
+                    </div>
+
+                    <div class="parmezanGroup">
+                        <div class="item parmezan" id="parmezan"></div>
+                        <span>пармезан</span>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+
+
+
+
+            <div class="choose" id="meat">М'ясо</div>
+
+            <div class="chooseOpen" id="chooseMeat">
+                <div class="row">
+                    <div class="chikenGroup">
+                        <div class="item chiken" id="chiken"></div>
+                        <span>курка</span>
+                    </div>
+
+                    <div class="bakonGroup">
+                        <div class="item bakon" id="bakon"></div>
+                        <span>бекон</span>
+                    </div>
+
+                    <div class="shinkaGroup">
+                        <div class="item shinka" id="shinka"></div>
+                        <span>шинка</span>
+                    </div>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="paperonyGroup">
+                        <div class="item paperony" id="paperony"></div>
+                        <span>папероні</span>
+                    </div>
+
+     
+                   
+                </div>
+
+            </div>
+
+
+
+            <div class="choose" id="sous">Соуси</div>
+
+            <div class="chooseOpen" id="chooseSous">
+                <div class="row">
+                    <div class="alifredoGroup">
+                        <div class="item alifredo" id="alifredo"></div>
+                        <span>альфрудо</span>
+                    </div>
+
+                    <div class="mybithepsGroup">
+                        <div class="item mybitheps" id="mybitheps"></div>
+                        <span>часниквий</span>
+                    </div>
+
+                    <div class="barbikuGroup">
+                        <div class="item barbiku" id="barbiku"></div>
+                        <span>барбікю</span>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+
+
+            <div class="choose" id="vegetables">Овочі</div>
+
+            <div class="chooseOpen" id="chooseVegetables">
+                <div class="row">
+                    <div class="kukurudzaGroup">
+                        <div class="item kukurudza" id="kukurudza"></div>
+                        <span>кукурудза</span>
+                    </div>
+
+                    <div class="ananasGroup">
+                        <div class="item ananas" id="ananas"></div>
+                        <span>ананас</span>
+                    </div>
+
+                    <div class="tomatoGroup">
+                        <div class="item tomato" id="tomato"></div>
+                        <span>помідор</span>
+                    </div>
+                </div>
+
+                <div class="row">
+
+
+                    <div class="gribGroup">
+                        <div class="item grib" id="grib"></div>
+                        <span>гриби</span>
+                    </div>
+
+                    <div class="spinatGroup">
+                        <div class="item spinat" id="spinat"></div>
+                        <span>шпинат</span>
+                    </div>
+
+                    <div class="perezGroup">
+                        <div class="item perez" id="perez"></div>
+                        <span>перець</span>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+        </div>
+
+        <div class="pizza">
+            <div class="pizzaColor">
+                <div class="row">
+                    <div class="item1 feta" id="fetaHide"></div>
+                    <div class="item1 mozarella" id="mozarellaHide"></div>
+                    <div class="item1 chedder" id="chedderHide"></div>
+                    <div class="item1 bargadel" id="bargadelHide"></div>
+                </div> 
+    
+                <div class="row">
+                    <div class="item1 parmezan" id="parmezanHide"></div>
+                    <div class="item1 chiken" id="chikenHide"></div>
+                    <div class="item1 bakon" id="bakonHide"></div>
+                    <div class="item1 shinka" id="shinkaHide"></div>
+                    <div class="item1 paperony" id="paperonyHide"></div>
+                </div>
+    
+                <div class="row">
+                    <div class="item1 alifredo" id="alifredoHide"></div>
+                    <div class="item1 mybitheps" id="mybithepsHide"></div>
+                    <div class="item1 barbiku" id="barbikuHide"></div>
+                    <div class="item1 kukurudza" id="kukurudzaHide"></div>
+                    <div class="item1 ananas" id="ananasHide"></div>
+                </div>
+                
+                <div class="row">
+                    <div class="item1 tomato" id="tomatoHide"></div>
+                    <div class="item1 grib" id="gribHide"></div>
+                    <div class="item1 spinat" id="spinatHide"></div>
+                    <div class="item1 perez" id="perezHide"></div>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="bob">
+            <button class="fun">оплатити:</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
